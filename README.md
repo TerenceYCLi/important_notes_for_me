@@ -6,3 +6,8 @@
 
 # OpenCV camera model 
 https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
+
+
+# conda and Ros will crash
+1. conda config --set auto_activate_base false to disable the conda env
+2. conda config --set auto_activate_base true to enable the conda env
