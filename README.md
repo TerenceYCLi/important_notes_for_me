@@ -11,3 +11,17 @@ https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_recons
 # conda and Ros will crash
 1. conda config --set auto_activate_base false to disable the conda env
 2. conda config --set auto_activate_base true to enable the conda env
+
+
+# Problem to solve for LiDaR NeRF
+1. the model after training need so many time to render, can not use in realtime rendering sence.
+
+
+# trick to train depth nerf
+1. first need to scale the depth map to the same size as rgb.
+
+# Python path usage
+1. from pathlib import Path
+a = Path("iamhere")
+b = a / "haha"
+print(b) # b = "iamhere/haha"
