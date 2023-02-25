@@ -19,6 +19,9 @@ https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_recons
 
 # trick to train depth nerf
 1. first need to scale the depth map to the same size as rgb.
+2. for polycam ns-process-data polycam --use-depth --data ./poly.zip --output-dir ./ready_for_use_depth
+3. ns-train depth-nerfacto --data ./
+4. transform.json has the depth image path under the img_path
 
 # Python path usage
 1. from pathlib import Path
