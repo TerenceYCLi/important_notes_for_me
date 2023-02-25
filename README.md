@@ -25,3 +25,6 @@ https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_recons
 a = Path("iamhere")
 b = a / "haha"
 print(b) # b = "iamhere/haha"
+
+# for segmentation image
+https://github.com/lukepolson/youtube_channel/blob/main/Python%20Tutorial%20Series/image_processing1.ipynb
