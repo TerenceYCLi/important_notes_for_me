@@ -4,9 +4,11 @@
 1. for launch file : https://classic.gazebosim.org/tutorials?tut=ros_roslaunch
 2. build world file: https://classic.gazebosim.org/tutorials?cat=build_world
 
-# OpenCV camera model 
+# OpenCV 
+1. camera model 
 https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
-
+2. Pythoncode
+https://medium.com/analytics-vidhya/the-ultimate-handbook-for-opencv-pillow-72b7eff77cd7#:~:text=Note%3A%20OpenCV%20images%20are%20in,format%20from%20one%20to%20another.
 
 # conda and Ros will crash
 1. conda config --set auto_activate_base false to disable the conda env
@@ -30,4 +32,6 @@ b = a / "haha"
 print(b) # b = "iamhere/haha"
 
 # for segmentation image
+1. example of segment a lung
 https://github.com/lukepolson/youtube_channel/blob/main/Python%20Tutorial%20Series/image_processing1.ipynb
+
